@@ -7,12 +7,12 @@
     <title>website</title>
 </head>
 
-<body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
+<body class="container"> <!-- Assigned class for body -->
+    <div class="header"> 
+        <h1 class="title">Hori<span class="seo">seo</span>n</h1> <!-- Assigned "title" as class for h1-->
+        <div class="list"> <!-- Assigned "list" as class for div-->
+            <ul> <!-- Assigned "elements" as class for ul-->
+                <li> <!-- Assigned "links" as class for li-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -26,7 +26,8 @@
     </div>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <div id="search-engine-optimization" class="search-engine-optimization">
+            <!-- Assigned id for div in order for the url link from header to react upon clicking -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -50,22 +51,22 @@
     </div>
     <div class="benefits">
         <div class="benefit-lead">
-            <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <h3 class="lg">Lead Generation</h3> <!-- Assigned "lg" as class for h3 -->
+            <img src="./assets/images/lead-generation.png" class="lead" /><!-- Assigned "lead" as class for img-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
         <div class="benefit-brand">
-            <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <h3 class="br">Brand Awareness</h3> <!-- Assigned "br" as class for h3 -->
+            <img src="./assets/images/brand-awareness.png" class="brand" /> <!-- Assigned "brand" as class for img -->
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
         <div class="benefit-cost">
-            <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <h3 class= "cm">Cost Management</h3> <!-- Assigned "cm" as class for h3 -->
+            <img src="./assets/images/cost-management.png" class="cost" /> <!-- Assigned "cost" as class for img -->
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
