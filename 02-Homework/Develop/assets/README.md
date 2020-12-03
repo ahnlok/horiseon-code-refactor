@@ -12,7 +12,7 @@
 ####Sungpil An <ansungpil1@gmail.com>
 ####URLs:
 ######GitPage: https://ahnlok.github.io/horiseon-code-refactor/
-######GitHub Repository: git@github.com:ahnlok/horiseon-code-refactor.git
+######GitHub Repository: https://github.com/ahnlok/horiseon-code-refactor
 ---
 ---
 ##License:
