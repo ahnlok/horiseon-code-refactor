@@ -1,15 +1,13 @@
-#Horiseon:
+#Horiseon
+---
+###Description:
+#####This is HTML and CSS for *Horiseon Social Solution Services, inc*.
+---
+###Lists of Horizon Features:
+1. Search Engine Optimization
+2. Online Reputation Management
+3. Social Media Marketing
 
-####This is a readme file for Horiseon Social Solution Services, Inc.
----
-##Features:
-![alt text](assets/images/horiseonheader.jpg)
-![alt text](assets/images/horiseonmain.jpg)
-![alt text](assets/images/horiseonside.jpg)
-
----
-##How To Use:
----
 ##Credits:
 ####Sungpil An <ansungpil1@gmail.com>
 ####URLs:
@@ -19,4 +17,4 @@
 ---
 ##License:
 &#169; Sungpil An, Georgia Tech Coding Bootcamp
-Licensed under the [MIT License](LICESNE).
+Licensed under the [MIT License](LICENSE).
